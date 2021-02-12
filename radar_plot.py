@@ -6,7 +6,7 @@ from matplotlib.colors import ListedColormap
 
 
 
-data = pd.DataFrame.from_csv("/home/osnat/Documents/writing in progress/The Last decade of Biomaterials research /top_3/geography_countries.csv")
+data = pd.DataFrame.from_csv("geography_countries.csv")
 
 
 df = data.T
